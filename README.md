@@ -24,9 +24,3 @@
 - Based in Sintra, Portugal · Open to remote roles
 - **rod.santos122@gmail.com** · [LinkedIn](https://linkedin.com/in/rodrigo-santos122)
 
----
-
-```text
-Status: open to work
-Focus: translating designs into working UIs · bridging design and code
-```
