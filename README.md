@@ -2,7 +2,7 @@
 
 ---
 
-### Client work
+### Past work
 
 [**GBuilder**](https://www.gbuilder.com/) — SaaS marketing site for a real estate BIM platform. Product pages, customer stories, interactive UI.
 
