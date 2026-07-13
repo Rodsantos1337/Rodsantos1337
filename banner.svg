@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13181B"/>
+      <stop offset="100%" stop-color="#0A0C0D"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#23292C" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.5" fill="#A7C080" opacity="0.03"/>
+    </pattern>
+
+    <radialGradient id="leftGlow" cx="20%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#A7C080" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#A7C080" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="rightGlow" cx="80%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#A7C080" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#A7C080" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.12"/>
+    </radialGradient>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 1 0 0 0  0 0 0 0.035 0"/>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect width="800" height="260" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="800" height="260" fill="url(#bgGrad)"/>
+    <rect width="800" height="260" fill="url(#grid)"/>
+    <rect width="800" height="260" fill="url(#dots)"/>
+    <rect width="800" height="260" fill="url(#leftGlow)"/>
+    <rect width="800" height="260" fill="url(#rightGlow)"/>
+    <rect width="800" height="260" fill="url(#vignette)"/>
+
+    <rect x="0.5" y="0.5" width="799" height="259" fill="none" stroke="#A7C080" stroke-width="1" opacity="0.06" rx="14"/>
+
+    <!-- Chrome bar -->
+    <rect width="800" height="36" fill="#161A1C"/>
+    <line x1="0" y1="36" x2="800" y2="36" stroke="#23292C" stroke-width="1"/>
+
+    <circle cx="20" cy="18" r="5" fill="#FF5F57"/>
+    <circle cx="38" cy="18" r="5" fill="#EBBC40"/>
+    <circle cx="56" cy="18" r="5" fill="#3BC93B"/>
+
+    <!-- Content — left column -->
+    <text x="40" y="104" font-family="system-ui,-apple-system,sans-serif" font-weight="500" font-size="28" fill="#E6E9E7" letter-spacing="-0.5">RODRIGO SANTOS</text>
+
+    <text x="40" y="132" font-family="system-ui,-apple-system,sans-serif" font-weight="500" font-size="15" fill="#96A39B">Frontend Developer</text>
+
+    <text x="40" y="156" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#A7C080">Translating designs into working UIs</text>
+
+    <line x1="40" y1="177" x2="300" y2="177" stroke="#23292C" stroke-width="1"/>
+
+    <path d="M 4 0 L 8 4 L 4 8 L 0 4 Z" fill="#A7C080" transform="translate(40, 195)"/>
+    <text x="54" y="202" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#7D8C83">Sintra, Portugal · UTC+1</text>
+
+    <!-- Content — right column pills -->
+    <!-- Row 1 — right-aligned to x=760 -->
+    <rect x="522" y="86" width="52" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="548" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">React</text>
+
+    <rect x="582" y="86" width="100" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="632" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">TypeScript</text>
+
+    <rect x="690" y="86" width="70" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="725" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">Node.js</text>
+
+    <!-- Row 2 — right-aligned to x=760 -->
+    <rect x="540" y="120" width="58" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="569" y="137" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">Astro</text>
+
+    <rect x="606" y="120" width="76" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="644" y="137" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">Hono.js</text>
+
+    <rect x="690" y="120" width="70" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="725" y="137" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">Three.js</text>
+
+    <!-- Row 3 — right-aligned to x=760 -->
+    <rect x="462" y="154" width="130" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="527" y="171" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">HTML / CSS / JS</text>
+
+    <rect x="600" y="154" width="92" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="646" y="171" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">Webflow</text>
+
+    <rect x="700" y="154" width="60" height="26" rx="8" fill="#161A1C" stroke="#23292C" stroke-width="1"/>
+    <text x="730" y="171" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#E6E9E7" text-anchor="middle">GSAP</text>
+
+    <!-- Grain overlay -->
+    <rect width="800" height="260" fill="none" filter="url(#grain)" pointer-events="none"/>
+  </g>
+</svg>
