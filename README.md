@@ -4,13 +4,13 @@
 
 ### Past work
 
-[**GBuilder**](https://www.gbuilder.com/) — SaaS marketing site for a real estate BIM platform. Product pages, customer stories, interactive UI.
-
 [**t'works**](https://www.t-works.eu/) — Global language services corporate site. Multi-language, large CMS architecture, service catalog.
 
 [**Waymark**](https://www.waymarkcare.com/medicaid-transformation-report) — Data-rich annual report landing page. Healthcare statistics, charts, PDF download flow.
 
 [**Old XetHub Website**](https://xethub-staging.webflow.io/) — ML versioning platform homepage. Modern tech startup site with integrations, use cases, and pricing.
+
+[**GBuilder**](https://www.gbuilder.com/) — SaaS marketing site for a real estate BIM platform. Product pages, customer stories, interactive UI.
 
 ### Personal projects
 
