@@ -12,7 +12,7 @@
 
 [**XetHub**](https://xethub-staging.webflow.io/) — ML versioning platform homepage. Modern tech startup site with integrations, use cases, and pricing.
 
-### Side projects
+### Personal projects
 
 [**book-buddy**](https://github.com/Rodsantos1337/book-buddy) — React + TypeScript app that lets an LLM search Open Library via API.
 
